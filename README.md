@@ -4,7 +4,7 @@ PHP Extension using PlaySMS
 #How To Use
 ...php
 require_once __DIR__ ."/vendor/autoload.php";
-use \alimasyhur\yii2playsms\PlaySms;
+use \alimasyhur\phpplaysms\PlaySms;
 
 $playsms = new PlaySms([
     'url' => 'http://example.com/index.php',
