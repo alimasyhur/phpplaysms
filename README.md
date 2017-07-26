@@ -1,8 +1,8 @@
-# phpplaysms
-PHP Extension using PlaySMS
+# PHP PlaySMS
+PHP Library to send SMS using PlaySMS
 
-#How To Use
-...php
+## How To Use
+```php
 require_once __DIR__ ."/vendor/autoload.php";
 use \alimasyhur\phpplaysms\PlaySms;
 
@@ -14,7 +14,7 @@ $playsms = new PlaySms([
 
 $arrNumber = ['+628xxxxxxx','+628xyxyxyxxy''];
 $message = 'Hello World';
-$response = $playsms->send($arrNumber, #message);
+$response = $playsms->send($arrNumber, $message);
 var_dump($response);
 exit(1);
-...
+```
